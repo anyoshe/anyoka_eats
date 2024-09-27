@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import * as serviceWorkerRegistration from './serviceWorkerRegistration'; 
+// import * as serviceWorkerRegistration from './serviceWorkerRegistration'; 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,7 +15,7 @@ root.render(
 );
 
 // Register service worker for PWA functionality
-serviceWorkerRegistration.register();
+// serviceWorkerRegistration.register();
 
 // Measure performance in your app
 reportWebVitals();
